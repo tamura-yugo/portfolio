@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>portfolio</title>
+
+<meta name="viewport" content="width=device-width">
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+</head>
+<body>
+
+<header class="sticky">
+
+<div class="header-background">
+<div class="top-title">
+<div>
+<a href="index.html" class="site-title">お酒販売株式会社</a>
+</div>
+<div class="title-s">
+<a href="" class="touka">お知らせ</a>
+<a href="" class="touka">特集</a>
+<a href="" class="touka">ライター紹介</a>
+<a href="" class="touka">企業方針</a>
+<a href="" class="touka">採用情報</a>
+</div>
+</div>
+</div>
+
+<div id="toggle">
+  <div id="toggle-box">
+      <span></span>
+      <span></span>
+      <span></span>
+  </div>
+</div>
+
+<div id="nav-content">
+  <nav>
+    <div class="menu3">MENU</div>
+    <div class="hmmenu">商品一覧</div>
+      <ul class="hmenu1">
+          <li><a href="product.html">ビール</a></li>
+          <li><a href="product.html">日本酒</a></li>
+          <li><a href="product.html">梅酒</a></li>
+          <li><a href="product.html">ワイン</a></li>
+          <li><a href="product.html">焼酎</a></li>
+          <li><a href="product.html">洋酒</a></li>
+      </ul>
+        <div class="menu4">
+          <div><a href="index.html">トップへ戻る</a></div>
+          <div><a href="#">店舗について</a></div>
+          <div><a href="#">お知らせ</a></div>
+          <div><a href="#">特集</a></div>
+          <div><a href="#">ライター紹介</a></div>
+          <div><a href="#">企業方針</a></div>
+          <div><a href="contact.php">お問い合わせ</a></div>
+          <div><a href="#">採用情報</a></div>
+        </div>
+  </nav>
+</div>
+
+<nav>
+  <ul class="menu">
+    <li class="menu1" id="syouhinitiran">
+      <a href="product.html">商品一覧</a>
+      <ul class="menu2">
+        <a href="product.html"><li>ビール</li></a>
+        <a href="product.html"><li>日本酒</li></a>
+        <a href="product.html"><li>梅酒</li></a>
+        <a href="product.html"><li>ワイン</li></a>
+        <a href="product.html"><li>焼酎</li></a>
+        <a href="product.html"><li>洋酒</li></a>
+      </ul>
+    </li>
+    <a href="#"><li id="tenponituite">店舗について</li></a>
+    <a href="contact.php"><li id="otoiawase">お問い合わせ</li></a>
+  </ul>
+  </nav>
+
+</header>
+
+<div id="main">
+
+<ul class="breadcrumb">
+  <li><a href="index.html">home</a></li>
+  <li><a href="#">product</a></li>
+</ul>
+
+<input type="radio" id="all" name="categories" value="all" checked>
+    <input type="radio" id="cat-beer" name="categories" value="cat-beer">
+    <input type="radio" id="cat-nihonsyu" name="categories" value="cat-nihonsyu">
+    <input type="radio" id="cat-umesyu" name="categories" value="cat-umesyu">
+    <input type="radio" id="cat-wine" name="categories" value="cat-wine">
+    <input type="radio" id="cat-syoutyu" name="categories" value="cat-syoutyu">
+    <input type="radio" id="cat-yousyu" name="categories" value="cat-yousyu">
+    <ol class="filters">
+      <li><label for="all">全て</label></li>
+      <li><label for="cat-beer">ビール</label></li>
+      <li><label for="cat-nihonsyu">日本酒</label></li>
+      <li><label for="cat-umesyu">梅酒</label></li>
+      <span>
+      <li><label for="cat-wine">ワイン</label></li>
+      <li><label for="cat-syoutyu">焼酎</label></li>
+      <li><label for="cat-yousyu">洋酒</label></li>
+      </span>
+    </ol>
+
+<div class="targets">
+<div class="target" data-category="cat-beer">
+<h2 class="product-title">
+  ビール
+</h2>
+
+<div id="beer-cate" class="product-grid">
+  <div class="products">
+  <a href="#" class="touka1">
+    <img src="img/beer3.jpg" class="product-img">
+  </a>
+    <h4 class="product-mb">
+      <a href="#" class="touka">
+        サッポロビール
+      </a>
+    </h4>
+    <span>
+      ￥300(税込み)
+     </span>
+  </div>
+  <div class="products">
+    <a href="#" class="touka1">
+      <img src="img/beer3.jpg" class="product-img">
+    </a>
+      <h4 class="product-mb">
+        <a href="#" class="touka">
+          キリンビール
+        </a>
+      </h4>
+      <span>
+       ￥300(税込み)
+      </span>
+    </div>
+    <div class="products">
+      <a href="#" class="touka1">
+        <img src="img/beer3.jpg" class="product-img">
+      </a>
+        <h4 class="product-mb">
+          <a href="#" class="touka">
+            アサヒビール
+          </a>
+        </h4>
+        <span>
+          ￥300(税込み)
+         </span>
+      </div>
+      <div class="products">
+        <a href="#" class="touka1">
+          <img src="img/beer3.jpg" class="product-img">
+        </a>
+          <h4 class="product-mb">
+            <a href="#" class="touka" >
+              サントリービール
+            </a>
+          </h4>
+          <span>
+            ￥300(税込み)
+           </span>
+        </div>
+        <div class="products">
+          <a href="#" class="touka1">
+            <img src="img/beer3.jpg" class="product-img">
+          </a>
+            <h4 class="product-mb">
+              <a href="#" class="touka">
+                コロナビール
+              </a>
+            </h4>
+            <span>
+              ￥300(税込み)
+             </span>
+          </div>
+          </div>
+</div>
+
+<div class="target" data-category="cat-nihonsyu">
+        <h2 class="product-title">
+          日本酒
+        </h2>
+        
+        <div id="nihonsyu-cate" class="product-grid">
+        <div class="products">
+          <a href="#" class="touka1">
+            <img src="img/nihonsyu.jpg" class="product-img">
+          </a>
+            <h4 class="product-mb">
+              <a href="#" class="touka">
+                大吟醸
+              </a>
+            </h4>
+            <span>
+              ￥300(税込み)
+             </span>
+          </div>
+          <div class="products">
+            <a href="#" class="touka1">
+              <img src="img/nihonsyu.jpg" class="product-img">
+            </a>
+              <h4 class="product-mb">
+                <a href="#" class="touka">
+                  純米酒
+                </a>
+              </h4>
+              <span>
+               ￥300(税込み)
+              </span>
+            </div>
+            <div class="products">
+              <a href="#" class="touka1">
+                <img src="img/nihonsyu.jpg" class="product-img">
+              </a>
+                <h4 class="product-mb">
+                  <a href="#" class="touka">
+                    本醸造酒
+                  </a>
+                </h4>
+                <span>
+                  ￥300(税込み)
+                 </span>
+              </div>
+              <div class="products">
+                <a href="#" class="touka1">
+                  <img src="img/nihonsyu.jpg" class="product-img">
+                </a>
+                  <h4 class="product-mb">
+                    <a href="#" class="touka">
+                      特別純米酒
+                    </a>
+                  </h4>
+                  <span>
+                    ￥300(税込み)
+                   </span>
+                </div>
+                <div class="products">
+                  <a href="#" class="touka1">
+                    <img src="img/nihonsyu.jpg" class="product-img">
+                  </a>
+                    <h4 class="product-mb">
+                      <a href="#" class="touka">
+                        純米大吟醸酒
+                      </a>
+                    </h4>
+                    <span>
+                     ￥300(税込み)
+                    </span>
+                  </div>
+                  <div class="products">
+                    <a href="#" class="touka1">
+                      <img src="img/nihonsyu.jpg" class="product-img">
+                    </a>
+                      <h4 class="product-mb">
+                        <a href="#" class="touka">
+                          純米吟醸酒
+                        </a>
+                      </h4>
+                      <span>
+                       ￥300(税込み)
+                      </span>
+                    </div>
+                    </div>
+</div>
+
+<div class="target" data-category="cat-umesyu">
+<h2 class="product-title">
+  梅酒
+</h2>
+
+<div id="umesyu-cate" class="product-grid">
+<div class="products">
+  <a href="#" class="touka1">
+    <img src="img/umesyu.jpg" class="product-img">
+  </a>
+    <h4 class="product-mb">
+      <a href="#" class="touka">
+        チョーヤ梅酒
+      </a>
+    </h4>
+    <span>
+      ￥300(税込み)
+     </span>
+  </div>
+  <div class="products">
+    <a href="#" class="touka1">
+      <img src="img/umesyu.jpg" class="product-img">
+    </a>
+      <h4 class="product-mb">
+        <a href="#" class="touka">
+          高清水 梅酒
+        </a>
+      </h4>
+      <span>
+       ￥300(税込み)
+      </span>
+    </div>
+</div>
+</div>
+
+<div class="target" data-category="cat-wine">
+<h2 class="product-title">
+  ワイン
+</h2>
+
+<div id="wine-cate" class="product-grid">
+<div class="products">
+  <a href="#" class="touka1">
+    <img src="img/red.jpg" class="product-img">
+  </a>
+    <h4 class="product-mb">
+      <a href="#" class="touka">
+        赤ワイン
+      </a>
+    </h4>
+    <span>
+      ￥300(税込み)
+     </span>
+  </div>
+  <div class="products">
+    <a href="#" class="touka1">
+      <img src="img/white.jpg" class="product-img">
+    </a>
+      <h4 class="product-mb">
+        <a href="#" class="touka">
+          白ワイン
+        </a>
+      </h4>
+      <span>
+       ￥300(税込み)
+      </span>
+    </div>
+    <div class="products">
+      <a href="#" class="touka1">
+        <img src="img/rose.jpg" class="product-img">
+      </a>
+        <h4 class="product-mb">
+          <a href="#" class="touka">
+            ロゼワイン
+          </a>
+        </h4>
+        <span>
+          ￥300(税込み)
+         </span>
+      </div>
+</div>
+</div>
+
+<div class="target" data-category="cat-syoutyu">
+<h2 class="product-title">
+  焼酎
+</h2>
+
+<div id="syoutyu-cate" class="product-grid">
+<div class="products">
+  <a href="#" class="touka1">
+    <img src="img/syoutyu.jpg" class="product-img">
+  </a>
+    <h4 class="product-mb">
+      <a href="#" class="touka">
+        芋焼酎
+      </a>
+    </h4>
+    <span>
+      ￥300(税込み)
+     </span>
+  </div>
+  <div class="products">
+    <a href="#" class="touka1">
+      <img src="img/syoutyu.jpg" class="product-img">
+    </a>
+      <h4 class="product-mb">
+        <a href="#" class="touka">
+          米焼酎
+        </a>
+      </h4>
+      <span>
+       ￥300(税込み)
+      </span>
+    </div>
+    <div class="products">
+      <a href="#" class="touka1">
+        <img src="img/syoutyu.jpg" class="product-img">
+      </a>
+        <h4 class="product-mb">
+          <a href="#" class="touka">
+            麦焼酎
+          </a>
+        </h4>
+        <span>
+         ￥300(税込み)
+        </span>
+      </div>
+</div>
+</div>
+
+<div class="target" data-category="cat-yousyu">
+<h2 class="product-title">
+  洋酒
+</h2>
+
+<div id="yousyu-cate" class="product-grid">
+<div class="products">
+  <a href="#" class="touka1">
+    <img src="img/vodka.jpg" class="product-img">
+  </a>
+    <h4 class="product-mb">
+      <a href="#" class="touka">
+        ウォッカ
+      </a>
+    </h4>
+    <span>
+      ￥300(税込み)
+     </span>
+  </div>
+  <div class="products">
+    <a href="#" class="touka1">
+      <img src="img/tequila.jpg" class="product-img">
+    </a>
+      <h4 class="product-mb">
+        <a href="#" class="touka">
+          テキーラ
+        </a>
+      </h4>
+      <span>
+       ￥300(税込み)
+      </span>
+    </div>
+    <div class="products">
+      <a href="#" class="touka1">
+        <img src="img/rum.jpg" class="product-img">
+      </a>
+        <h4 class="product-mb">
+          <a href="#" class="touka">
+            ラム
+          </a>
+        </h4>
+        <span>
+          ￥300(税込み)
+         </span>
+      </div>
+      <div class="products">
+        <a href="#" class="touka1">
+          <img src="img/gin.jpg" class="product-img">
+        </a>
+          <h4 class="product-mb">
+            <a href="#" class="touka">
+              ジン
+            </a>
+          </h4>
+          <span>
+           ￥300(税込み)
+          </span>
+        </div>
+</div>
+</div>
+</div>
+
+<footer>
+  <div class="container">
+  <div class="row">
+  <div class="col-lg-2 col-6"><div class="footer-title">CATEGORY</div>
+   <ul class="footer-cat">
+     <li>
+       <a href="product.html" class="touka">
+         ビール
+       </a>
+     </li>
+     <li>
+       <a href="product.html" class="touka">
+         日本酒
+       </a>
+     </li>
+     <li>
+      <a href="product.html" class="touka">
+        梅酒
+      </a>
+     </li>
+     <li>
+       <a href="product.html" class="touka">
+         ワイン
+       </a>
+    </li>
+    <li>
+       <a href="product.html" class="touka">
+        焼酎
+      </a>
+    </li>
+    <li>
+      <a href="product.html" class="touka">
+        洋酒
+      </a>
+    </li>
+   </ul></div>
+   <div class="col-lg-4 col-6"><div class="footer-title">ABOUT</div>
+   <ul class="footer-cat">
+    <li>
+       <a href="#" class="touka">
+        店舗について
+       </a>
+    </li>
+    <li>
+       <a href="#" class="touka">
+         お知らせ
+       </a>
+     </li>
+     <li>
+      <a href="#" class="touka">
+         特集
+      </a>
+     </li>
+     <li>
+       <a href="#" class="touka">
+         ライター紹介
+      </a>
+    </li>
+    <li>
+      <a href="#" class="touka">
+        企業方針
+       </a>
+     </li>
+     <li>
+       <a href="contact.php" class="touka">
+         お問い合わせ
+      </a>
+    </li>
+    <li>
+      <a href="#" class="touka">
+        採用情報
+      </a>
+    </li>
+  </ul></div>
+  <div class="col-lg-6 col-12"><div class="footer-syoukai"><div class="footer-title">お酒販売株式会社</div>
+  <div>色々なお酒を売っています。<br>新商品も随時入荷し、お客様のご要望に応えられるよう努めています。<br>ぜひ当店にお買い求めください。</div></div>
+   <div class="stop-flex">
+   <div class="stop"><img src="img/stop.png"></div>
+  <div>お酒は20歳になってから。<br>お酒はおいしく適量を。<br>飲酒運転は絶対に止めましょう。<br>
+       妊娠中や授乳期の飲酒は、胎児・乳児の発達に影響する恐れがありますので気をつけましょう。</div>
+      </div></div></div></div>
+   <div class="copyright">© お酒販売株式会社</div>
+</footer>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  
+</body>
+</html>
+
+<script>
+  $(function() {
+  $('#toggle').on('click', function() {
+    $('body').toggleClass('is-open');
+    $('#main').toggleClass('overlay');
+  });
+  $(document).on('click','.overlay', function() {
+    $('body').removeClass('is-open');
+    $('#main').removeClass('overlay');
+  });
+});
+</script>
