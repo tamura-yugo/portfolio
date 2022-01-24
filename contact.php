@@ -146,7 +146,7 @@
   <footer>
     <div class="container">
     <div class="row">
-    <div class="col-lg-2 col-6"><div class="footer-title">CATEGORY</div>
+    <div class="col-lg-2 col-6"><h3 class="footer-title">CATEGORY</h3>
     <ul class="footer-cat">
       <li>
         <a href="product.html" class="touka">
@@ -179,7 +179,7 @@
         </a>
       </li>
     </ul></div>
-    <div class="col-lg-4 col-6"><div class="footer-title">ABOUT</div>
+    <div class="col-lg-4 col-6"><h3 class="footer-title">ABOUT</h3>
     <ul class="footer-cat">
       <li>
         <a href="#" class="touka">
@@ -217,10 +217,10 @@
         </a>
       </li>
     </ul></div>
-    <div class="col-lg-6 col-12"><div class="footer-syoukai"><div class="footer-title">お酒販売株式会社</div>
+    <div class="col-lg-6 col-12"><div class="footer-syoukai"><h3 class="footer-title">お酒販売株式会社</h3>
     <div>色々なお酒を売っています。<br>新商品も随時入荷し、お客様のご要望に応えられるよう努めています。<br>ぜひ当店にお買い求めください。</div></div>
     <div class="stop-flex">
-    <div class="stop"><img src="img/stop.png"></div>
+    <div class="stop"><img src="img/stop.png" alt=""></div>
     <div>お酒は20歳になってから。<br>お酒はおいしく適量を。<br>飲酒運転は絶対に止めましょう。<br>
     妊娠中や授乳期の飲酒は、胎児・乳児の発達に影響する恐れがありますので気をつけましょう。</div></div></div></div></div>
     <div class="copyright">© お酒販売株式会社</div>

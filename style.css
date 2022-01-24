@@ -20,7 +20,12 @@ header {
   background-image: url(img/sunahama2.jpg);
   background-position: 50% 57%;
   background-size: cover;
-  line-height: 1.3;
+}
+
+@media (max-width: 559px) {
+  .header-background {
+    height: 40px;
+  }
 }
 
 .site-title:hover {
@@ -294,6 +299,53 @@ img {
     font-size: 30px!important;
 }
 
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 0;
+}
+
+.sponly {
+  display: none;
+}
+
+@media (max-width: 1079px) {
+  .pconly {
+    display: none;
+  }
+  .sponly {
+    display: block;
+    font-size: 1.5rem;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 499px) {
+  .sponly {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 399px) {
+  .sponly {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 354px) {
+  .sponly {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 328px) {
+  .sponly {
+    font-size: 1rem;
+  }
+}
+
 .choose {
   display: flex;
   align-items: center;
@@ -303,7 +355,7 @@ img {
   max-width: 1060px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 85px;
+  margin-top: 70px;
   margin-bottom: 0;
   padding: 0 15px;
 }
@@ -740,6 +792,11 @@ img {
 
 .tokusyu-parent {
   max-width: 1060px;
+  padding: 0;
+}
+
+.row {
+  list-style-type: none;
   padding: 0;
 }
 
@@ -1191,7 +1248,7 @@ input[type="button"] {
 footer {
   background-color: #495057;
   color: #fff;
-  padding-top: 25px;
+  padding-top: 30px;
   padding-bottom: 30px;
   margin-top:30px;
 }
@@ -1264,7 +1321,7 @@ footer .container {
 
 #toggle {
   position: fixed;
-  top: 15px;
+  top: 20px;
   right: 45px;
 }
 
@@ -1410,7 +1467,7 @@ transform: translateX(0);
 
 @media (max-width: 799px) {
   #toggle {
-    top: 11px;
+    top: 15px;
   }
   #toggle-box {
     width: 27px;
@@ -1427,7 +1484,7 @@ transform: translateX(0);
 
 @media (max-width: 679px) {
   #toggle {
-    top: 10px;
+    top: 14px;
     right: 35px;
   }
   #toggle-box {
@@ -1445,7 +1502,7 @@ transform: translateX(0);
 
 @media (max-width: 559px) {
   #toggle {
-    top: 8px;
+    top: 9px;
     right: 25px;
   }
   #toggle-box {
@@ -1469,7 +1526,7 @@ transform: translateX(0);
 
 @media (max-width: 369px) {
   #toggle {
-    top: 9px;
+    top: 11px;
     right: 20px;
   }
   #toggle-box {
